@@ -1,0 +1,18 @@
+<html>
+  <body>
+    Click untuk merubah warna <br><br>
+    <button onclick="jawab()"> Ubah Warna</button>
+
+    <p id="jawaban"></p>
+    <script>
+      function jawab(){
+        var nama = prompt("Ketikkan Warna yang Kamu Inginkan (English)","Warna")
+        if (nama != null){
+          document.body.style.backgroundColor = nama;
+        }
+
+
+      }
+    </script>
+  </body>
+</html>
